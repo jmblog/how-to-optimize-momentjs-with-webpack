@@ -55,6 +55,14 @@ moment.locale('ja');
 ...
 ```
 
+## Measurements
+
+|       | File size | Gzipped |
+|:-----------------|------------------:|------------------:|
+| Default | 199 kB | 58.6 kB |
+| using IgnorePlugin | 51 kB | 17.1 kB |
+| using ContextReplacementPlugin | 51 kB | 17.1 kB |
+
 
 ## References
 - http://stackoverflow.com/questions/25384360/how-to-prevent-moment-js-from-loading-locales-with-webpack/37172595
