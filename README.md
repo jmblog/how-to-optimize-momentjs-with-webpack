@@ -63,6 +63,9 @@ moment.locale('ja');
 | using IgnorePlugin | 51 kB | 17.1 kB |
 | using ContextReplacementPlugin | 51 kB | 17.1 kB |
 
+## Bonus
+
+[`date-fns`](https://github.com/date-fns/date-fns/) is an alternative libraly to `moment.js`. It doesn't need this kind of tricky solution and has [more cons](https://github.com/date-fns/date-fns/issues/275#issuecomment-264934189). It's worth considering.
 
 ## References
 - http://stackoverflow.com/questions/25384360/how-to-prevent-moment-js-from-loading-locales-with-webpack/37172595
