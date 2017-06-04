@@ -9,7 +9,7 @@ To optimize the size, the two webpack plugins are available:
 
 ## Using `IgnorePlugin`
 
-If you don't need any locales except `en`, the `IgnorePlugin` is the best choice.
+You can remove all locale files with the `IgnorePlugin`.
 
 ```js
 const webpack = require('webpack');
@@ -34,7 +34,7 @@ moment.locale('ja');
 
 ## Using `ContextReplacementPlugin`
 
-If you want to include some locales, you can use `ContextReplacementPlugin`.
+If you want to specify the including locale files in the webpack config file, you can use `ContextReplacementPlugin`.
 
 ```js
 const webpack = require('webpack');
