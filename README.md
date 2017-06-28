@@ -2,6 +2,9 @@
 
 When you write `var moment = require('moment')` in your code and pack with webpack, your bundle file includes all locale files by default and its size gets heavyweight.
 
+![](https://raw.githubusercontent.com/jmblog/how-to-optimize-momentjs-with-webpack/master/source-map-explorer.png)
+
+
 To optimize the size, the two webpack plugins are available:
 
 1. `IgnorePlugin`
