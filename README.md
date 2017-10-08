@@ -35,6 +35,8 @@ moment.locale('ja');
 ...
 ```
 
+This solution is also used in the [create-react-app](https://github.com/facebookincubator/create-react-app/blob/a0030fcf2df5387577ced165198f1f0264022fbd/packages/react-scripts/config/webpack.config.prod.js#L350-L355).
+
 ## Using `ContextReplacementPlugin`
 
 If you want to specify the including locale files in the webpack config file, you can use `ContextReplacementPlugin`.
