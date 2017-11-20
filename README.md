@@ -1,6 +1,6 @@
 # How to optimize moment.js with webpack
 
-When you write `var moment = require('moment')` in your code and pack with webpack, your bundle file includes all locale files by default and its size gets heavyweight.
+When you write `var moment = require('moment')` in your code and pack with webpack, the size of the bundle file gets heavyweight because it includes all locale files.
 
 ![](https://raw.githubusercontent.com/jmblog/how-to-optimize-momentjs-with-webpack/master/source-map-explorer.png)
 
