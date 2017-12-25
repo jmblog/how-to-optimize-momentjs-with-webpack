@@ -4,7 +4,6 @@ When you write `var moment = require('moment')` in your code and pack with webpa
 
 ![](https://raw.githubusercontent.com/jmblog/how-to-optimize-momentjs-with-webpack/master/source-map-explorer.png)
 
-
 To optimize the size, the two webpack plugins are available:
 
 1. `IgnorePlugin`
@@ -62,16 +61,20 @@ moment.locale('ja');
 
 ## Measurements
 
-|       | File size | Gzipped |
-|:-----------------|------------------:|------------------:|
-| Default | 199 kB | 58.6 kB |
-| using IgnorePlugin | 51 kB | 17.1 kB |
-| using ContextReplacementPlugin | 51 kB | 17.1 kB |
+* webpack: v3.10.0
+* moment.js: v2.20.1
+
+|                             | File size | Gzipped |
+| :-------------------------- | --------: | ------: |
+| Default                     |    266 kB |   69 kB |
+| w/ IgnorePlugin             |   68.1 kB | 22.6 kB |
+| w/ ContextReplacementPlugin |   68.3 kB | 22.6 kB |
 
 ## Bonus
 
 [`date-fns`](https://github.com/date-fns/date-fns/) is an alternative libraly to `moment.js`. It doesn't need this kind of tricky solution and has [more benefits](https://github.com/date-fns/date-fns/issues/275#issuecomment-264934189). It's worth considering.
 
 ## References
-- http://stackoverflow.com/questions/25384360/how-to-prevent-moment-js-from-loading-locales-with-webpack/37172595
-- https://github.com/moment/moment/issues/2373
+
+* http://stackoverflow.com/questions/25384360/how-to-prevent-moment-js-from-loading-locales-with-webpack/37172595
+* https://github.com/moment/moment/issues/2373
