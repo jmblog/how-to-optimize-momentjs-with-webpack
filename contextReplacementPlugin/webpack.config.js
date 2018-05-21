@@ -14,6 +14,6 @@ module.exports = {
   },
   plugins: [
     new UglifyJSPlugin({ sourceMap: true }),
-    new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /ja|it/),
+    new webpack.ContextReplacementPlugin(/moment[/\\]locale/, /ja|it/),
   ],
 };

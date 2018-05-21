@@ -6,8 +6,8 @@ When you write `var moment = require('moment')` in your code and pack with webpa
 
 To optimize the size, the two webpack plugins are available:
 
-1. `IgnorePlugin`
-1. `ContextReplacementPlugin`
+1.  `IgnorePlugin`
+1.  `ContextReplacementPlugin`
 
 ## Using `IgnorePlugin`
 
@@ -46,7 +46,7 @@ module.exports = {
   //...
   plugins: [
     // load `moment/locale/ja.js` and `moment/locale/it.js`
-    new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /ja|it/),
+    new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /ja|it/),
   ],
 };
 ```
