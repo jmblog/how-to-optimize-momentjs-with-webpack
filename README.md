@@ -70,9 +70,9 @@ moment.locale('ja');
 | w/ IgnorePlugin             |   68.1 kB | 22.6 kB |
 | w/ ContextReplacementPlugin |   68.3 kB | 22.6 kB |
 
-## Bonus
+## Alternatives
 
-[`date-fns`](https://github.com/date-fns/date-fns/) is an alternative libraly to `moment.js`. It doesn't need this kind of tricky solution and has [more benefits](https://github.com/date-fns/date-fns/issues/275#issuecomment-264934189). It's worth considering.
+If you are looking for the alternatives to moment.js, please see https://github.com/you-dont-need/You-Dont-Need-Momentjs.
 
 ## References
 
