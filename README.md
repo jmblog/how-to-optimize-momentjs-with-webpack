@@ -34,7 +34,8 @@ moment.locale('ja');
 ...
 ```
 
-This solution is used in [create-react-app](https://github.com/facebookincubator/create-react-app/blob/a0030fcf2df5387577ced165198f1f0264022fbd/packages/react-scripts/config/webpack.config.prod.js#L350-L355).
+
+[Create React App](https://github.com/facebookincubator/create-react-app/blob/a0030fcf2df5387577ced165198f1f0264022fbd/packages/react-scripts/config/webpack.config.prod.js#L350-L355) and [Next.js](https://github.com/vercel/next.js/blob/1ebf26af784637a27fe422090418126c474353f4/packages/next/build/webpack-config.ts#L1142-L1150) use this solution.
 
 ## Using `ContextReplacementPlugin`
 
