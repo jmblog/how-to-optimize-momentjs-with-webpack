@@ -35,6 +35,6 @@
     "pretty-bytes-cli": "^2.0.0",
     "source-map-explorer": "^1.5.0",
     "uglifyjs-webpack-plugin": "^1.1.4",
-    "webpack": "^3.10.0"
+    "webpack": "^5.75.0"
   }
 }
